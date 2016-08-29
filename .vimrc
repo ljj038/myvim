@@ -32,6 +32,8 @@ Plug 'aklt/plantuml-syntax' "plantuml syntax plugin
 Plug 'evidens/vim-twig' "twig php templete syntax
 Plug 'chaquotay/ftl-vim-syntax' "freemarker syntax plugin
 Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-fugitive' "git
+
 
 " Track the engine.
 Plug 'SirVer/ultisnips'
@@ -344,8 +346,8 @@ endfunction
 " ----- altercation/vim-colors-solarized settings -----
 " Toggle this to "light" for light colorscheme
 " highlight
-set cursorline
-set colorcolumn=80
+"set cursorline
+"set colorcolumn=80
 
 " Uncomment the next line if your terminal is not configured for solarized
 let g:solarized_termcolors=256
